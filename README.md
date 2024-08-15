@@ -4,8 +4,7 @@
 
 ### Abra o seu github, crie um repositorio feito isso abra o codespaces. Abra o terminal e escreva o código abaixo. ###
 
-```
-
+```bash
 npm init -y
 npm install express cors sqlite3 sqlite
 npm install --save-dev typescript nodemon ts-node @types/express @types/cors
