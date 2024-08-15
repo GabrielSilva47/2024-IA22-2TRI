@@ -28,7 +28,7 @@ touch src/app.ts
 
 ``´´Imagem do install express cors sqlite3 sqlite:´´``
 
-![.](./img/CapturarINSTALL.png)
+ ![.](./img/CapturarINSTALL.png) 
 
 ``´´Imagem do install --save-dev typescript nodemon ts-node @types/express @types/cors:´´``
 
