@@ -1,6 +1,6 @@
 # 2024-IA22-2TRI
 
-# 1. **Iniciando um projeto Node.js com TypeScript** #
+# 1. **Criando um projeto Node.js com TypeScript** #
 
 ### Abra o seu github, crie um repositorio feito isso abra o codespaces. Abra o terminal e escreva o código abaixo. ###
 
