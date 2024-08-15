@@ -1,36 +1,32 @@
 # 2024-IA22-2TRI
 
-# **Iniciando um projeto Node.js com TypeScript** #
+# 1. **Iniciando um projeto Node.js com TypeScript** #
 
 ### Abra o seu github, crie um repositorio feito isso abra o codespaces. Abra o terminal e escreva o código abaixo. ###
 
 ```
 
 npm init -y
-
 npm install express cors sqlite3 sqlite
-
 npm install --save-dev typescript nodemon ts-node @types/express @types/cors
-
 npx tsc --init
-
 mkdir src
-
 touch src/app.ts
-
+touch src/database.ts
 ````
 
-# Escreva um de cada vez. Aparecerá isso  #
+
+# Escreva um de cada vez. Aparecerá isso  
 
 ``´´Imagem do init -y:´´``
 
 ![.](./img/CapturarINIT.png)
 
-``´´Imagem do install express cors sqlite3 sqlite:´´``
+### **Caso a imagem esteja ruim de enxergar clique nela.** ``´´Imagem do install express cors sqlite3 sqlite:´´`` 
 
  ![.](./img/CapturarINSTALL.png) 
 
-``´´Imagem do install --save-dev typescript nodemon ts-node @types/express @types/cors:´´``
+``´´Imagem do install --save-dev typescript nodemon ts-node @types/express @types/cors:´´`` 
 
 ![.](./img/CapturarINSTALLSAVE.png)
 
@@ -42,13 +38,13 @@ touch src/app.ts
 
 ![.](./img/CapturarSRC.png)
 
-# **Configuranado o tsconfig.json** #
+# **2. Configuranado o tsconfig.json** #
 
 ###  Va no tsconfig.json procure /* Emit */ e altere as linhas "//outDir": "./", para ``"outDir": "./dist"``, e adicione a linha "//rootDir": "./src", o ficara desta maneira.  ###
 
 ![.](./img/CapturarEmit.png)
 
-# **Configurando o package.json** #
+# **3. Configurando o package.json** #
 
 ### Va no package.json preocure por script nele você adicionara a seguinte linha ###
 
@@ -62,9 +58,9 @@ touch src/app.ts
 
  ![.](./img/Capturarscript.png)
 
-# **Criando arquivo inicial do servidor** #
+# 4. **Criando arquivo inicial do servidor** #
 
-### Vá na pasta ``src`` crie uma novo arquivo com o ``database.ts``dentro dele coloque o seginte código: ###
+### Vá na pasta ``src`` clique no arquivo ``database.ts``dentro dele cole o seginte código: ###
 
 ```typescript
 import express from 'express';
@@ -85,7 +81,7 @@ app.listen(port, () => {
 }); 
 ```
 
-# Inicializando o servidor #
+# **5. Inicializando o servidor** #
 
 Vá no terminal novamenete e escreva isso: 
 
